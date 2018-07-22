@@ -7,7 +7,9 @@ def prime(int)
   adder = 0
   while adder < int
     checker[adder] = adder
-    adder+=
+    adder += 1
+  end
+  if checker.each 
 
   
   end
