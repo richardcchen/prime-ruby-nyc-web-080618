@@ -6,8 +6,8 @@ def prime?(int)
   elsif int == 2
     return true
   else
-    #checker = []
-    adder = 2
+    #checker = [2]
+    adder = 3
     while adder < int
       checker.push(adder)
       adder += 1
