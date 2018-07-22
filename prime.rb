@@ -1,11 +1,10 @@
 # Add  code here!
-def prime(int)
+def prime?(int)
 
   if int <= 0
     return false
   elsif int == 2
     return true
-  
   else
     checker = []
     adder = 2
