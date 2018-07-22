@@ -8,7 +8,7 @@ def prime(int)
     checker = []
     adder = 1
     while adder < int
-      checker[adder-1] = adder
+      checker.push(adder)
       adder += 1
     end
     checker.each do |i|
