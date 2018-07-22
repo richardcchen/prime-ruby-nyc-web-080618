@@ -1,4 +1,5 @@
 # Add  code here!
 def prime(int)
-  checker = 
+  checker = []
+  
 end
