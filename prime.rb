@@ -1,12 +1,14 @@
 # Add  code here!
 def prime(int)
 
-  if int <= 0 
+  if int <= 0
     return false
+  elsif int == 2
+    return true
   
   else
     checker = []
-    adder = 1
+    adder = 2
     while adder < int
       checker.push(adder)
       adder += 1
