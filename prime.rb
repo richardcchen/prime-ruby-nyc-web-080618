@@ -13,7 +13,7 @@ def prime?(int)
       adder += 1
     end
     checker.each do |i|
-      if int%i = 0
+      if int%i == 0
         return false
       end
     end
