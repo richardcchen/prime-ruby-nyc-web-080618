@@ -9,8 +9,10 @@ def prime(int)
     checker[adder] = adder
     adder += 1
   end
-  if checker.each 
-
-  
+  checker.each do |i|
+    if int%i = 0
+      return false
+    end
+  return true
   end
 end
