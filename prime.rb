@@ -4,9 +4,10 @@ def prime(int)
     return false
   else
   checker = []
-  intcount = 1..int
-  for counter in intcount
-    checker[intcount-1] = 
+  adder = 0
+  while adder < int
+    checker[adder] = adder
+    adder+=
 
   
   end
