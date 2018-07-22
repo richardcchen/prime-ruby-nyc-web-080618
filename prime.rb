@@ -1,14 +1,14 @@
 # Add  code here!
 def prime(int)
 
-  if int < 0 
+  if int <= 0 
     return false
   
   else
     checker = []
-    adder = 0
+    adder = 1
     while adder < int
-      checker[adder] = adder
+      checker[adder-1] = adder
       adder += 1
     end
     checker.each do |i|
