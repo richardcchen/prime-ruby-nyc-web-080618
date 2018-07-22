@@ -1,7 +1,7 @@
 # Add  code here!
 def prime(int)
 
-  if int <= 0 
+  if int < 0 
     return false
   
   else
